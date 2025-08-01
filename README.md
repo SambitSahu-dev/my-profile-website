@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sambit Sahu - Professional Profile Website
 
 A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
@@ -95,3 +96,6 @@ To customize the website for your own use:
 ## License
 
 This project is open source and available under the MIT License.
+=======
+# my-profile-website
+>>>>>>> 0671487d9f2ce93931df38e2fb4cad0a80bc768e
