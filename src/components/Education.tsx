@@ -3,6 +3,15 @@ import { GraduationCap, Calendar, MapPin, Award, BookOpen } from 'lucide-react';
 
 export const Education: React.FC = () => {
   const education = [
+        {
+      degree: "Ph.D in Computer Science and Engineering",
+      field: "AI",
+      institution: "Sri Sri University, Cuttack",
+      institutionUrl: 'https://srisriuniversity.edu.in',
+      location: "Cuttack",
+      period: "22026 - Continue",
+      description: "Focused on Research and Development in the filed of Artificial Intelligence.",
+    },
     {
       degree: "Master of Technology (M.Tech)",
       field: "Information Technology",
@@ -10,7 +19,6 @@ export const Education: React.FC = () => {
       institutionUrl: 'https://outr.ac.in/',
       location: "Bhubaneswar",
       period: "2020 - 2022",
-      grade: "CGPA: 8.5/10",
       description: "Specialized in Artificial Intelligence, Machine Learning, and Data Structures. Completed comprehensive coursework in algorithms, software engineering, and computer systems.",
       highlights: [
         "Specialized in AI/ML and Data Science",
@@ -34,7 +42,6 @@ export const Education: React.FC = () => {
       institutionUrl: 'https://ravenshawuniversity.ac.in/',
       location: "Cuttcak",
       period: "2016 - 2019",
-      grade: "Percentage: 85%",
       description: "Focused on Mathematics and Science subjects with strong foundation in analytical thinking and problem-solving.",
       highlights: [
         "Mathematics and Science specialization",
@@ -52,7 +59,6 @@ export const Education: React.FC = () => {
       institutionUrl: 'https://ksubcollege.edu.in',
       location: "Berhampur University",
       period: "2013 - 2016",
-      grade: "Percentage: 69.28%",
       description: "Focused on Mathematics and Science subjects with strong foundation in analytical thinking and problem-solving.",
       highlights: [
         "Mathematics and Science specialization",
@@ -67,7 +73,6 @@ export const Education: React.FC = () => {
       institution: "OM BHURBHUVAH SVAH RESIDENTIAL CUM DAY SCHOLAR COLLEGE, BERHAMPUR",
       location: "Berhampur",
       period: "2011 - 2013",
-      grade: "Percentage: 64.00%",
       description: "Focused on Mathematics and Science subjects with strong foundation in analytical thinking and problem-solving.",
       highlights: [
         "Mathematics and Science specialization",
