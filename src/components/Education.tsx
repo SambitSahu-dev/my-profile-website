@@ -9,7 +9,7 @@ export const Education: React.FC = () => {
       institution: "Sri Sri University, Cuttack",
       institutionUrl: 'https://srisriuniversity.edu.in',
       location: "Cuttack",
-      period: "22026 - Present",
+      period: "2026 - Present",
       description: "Focused on Research and Development in the filed of Artificial Intelligence.",
     },
     {
