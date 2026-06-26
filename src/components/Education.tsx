@@ -168,32 +168,36 @@ export const Education: React.FC = () => {
                     <p className="text-gray-600 mb-6 leading-relaxed">{edu.description}</p>
                     
                     {/* Highlights */}
-                    <div className="mb-6">
-                      <h5 className="text-lg font-semibold text-gray-900 mb-3">Key Highlights</h5>
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                        {edu.highlights.map((highlight, hIndex) => (
-                          <div key={hIndex} className="flex items-start gap-3">
-                            <Award className="w-4 h-4 text-teal-500 flex-shrink-0 mt-1" />
-                            <span className="text-gray-700 text-sm">{highlight}</span>
-                          </div>
-                        ))}
+                    {edu.highlights?.length > 0 && (
+                      <div className="mb-6">
+                        <h5 className="text-lg font-semibold text-gray-900 mb-3">Key Highlights</h5>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                          {edu.highlights.map((highlight, hIndex) => (
+                            <div key={hIndex} className="flex items-start gap-3">
+                              <Award className="w-4 h-4 text-teal-500 flex-shrink-0 mt-1" />
+                              <span className="text-gray-700 text-sm">{highlight}</span>
+                            </div>
+                          ))}
+                        </div>
                       </div>
-                    </div>
+                    )}
                     
                     {/* Relevant Courses */}
-                    <div>
-                      <h5 className="text-lg font-semibold text-gray-900 mb-3">Relevant Subjects</h5>
-                      <div className="flex flex-wrap gap-2">
-                        {edu.courses.map((course, cIndex) => (
-                          <span 
-                            key={cIndex}
-                            className="px-3 py-1 bg-blue-50 text-blue-700 text-sm rounded-full border border-blue-200"
-                          >
-                            {course}
-                          </span>
-                        ))}
+                    {edu.courses?.length > 0 && (
+                      <div>
+                        <h5 className="text-lg font-semibold text-gray-900 mb-3">Relevant Subjects</h5>
+                        <div className="flex flex-wrap gap-2">
+                          {edu.courses.map((course, cIndex) => (
+                            <span
+                              key={cIndex}
+                              className="px-3 py-1 bg-blue-50 text-blue-700 text-sm rounded-full border border-blue-200"
+                            >
+                              {course}
+                            </span>
+                          ))}
+                        </div>
                       </div>
-                    </div>
+                    )}
                   </div>
                 </div>
               </div>
