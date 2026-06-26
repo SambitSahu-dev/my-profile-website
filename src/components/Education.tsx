@@ -9,7 +9,7 @@ export const Education: React.FC = () => {
       institution: "Sri Sri University, Cuttack",
       institutionUrl: 'https://srisriuniversity.edu.in',
       location: "Cuttack",
-      period: "22026 - Continue",
+      period: "22026 - Present",
       description: "Focused on Research and Development in the filed of Artificial Intelligence.",
     },
     {
@@ -161,10 +161,6 @@ export const Education: React.FC = () => {
                         <div className="flex items-center gap-2 mb-1">
                           <MapPin size={16} />
                           <span>{edu.location}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <Award size={16} />
-                          <span className="font-semibold text-green-600">{edu.grade}</span>
                         </div>
                       </div>
                     </div>
