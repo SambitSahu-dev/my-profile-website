@@ -4,12 +4,12 @@ import { Calendar, MapPin, Award, TrendingUp } from 'lucide-react';
 export const Experience: React.FC = () => {
   const experiences = [
     {
-      title: "Associate Software Developer",
+      title: "Senior Project Associate - II Technical",
       company: "Odisha Knowledge Corporation Limited",
       companyLink: "https://www.okcl.org",
       location: "Bhubaneswar, Odisha",
       period: "09/2023 - Present",
-      type: "AI/ML Development, Training and Project Management",
+      type: "AI/ML Development, IPR Head, Training and Project Management",
       description: "Leading research initiatives in emerging technologies for edu tech sector, focusing on AI and IoT based development and managing different projects.",
       achievements: [ 
         "Published research on ensemble learning models for EEG-based emotion classification",
